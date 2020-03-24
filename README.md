@@ -26,9 +26,11 @@ Application log files get generated in "logs" folder.
 
 run below command:
 
+**
 ```
 ./bin/run.sh
 ```
+If requires, give execution permission to above bash script.
 
 Sample input file is at **files** folder. Once Input.txt file is processed, you could see something like this in application logs,
 

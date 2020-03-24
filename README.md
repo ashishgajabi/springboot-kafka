@@ -1,6 +1,6 @@
 # Client Transaction Management Application
 
-This is a sample Java / Maven / Spring Boot based application which **continuously poll** the directory and if **Input.txt** is found
+This is a sample Java / Maven / Spring Boot based application which **continuously poll the directory files** and if **Input.txt** is found
 then it process the file by sending each transaction(line) of file on Kafka topic. Kafka listener receives the message, process 
 the message and saves it to database.
 
@@ -30,7 +30,7 @@ run below command:
 ./bin/run.sh
 ```
 
-Sample input file is at ./files folder. Once Input.txt file is processed, in application logs, you could see something like this,
+Sample input file is at **files** folder. Once Input.txt file is processed, you could see something like this in application logs,
 
 ```
 2020-03-24 22:08:46,780 INFO au.com.easynebula.clienttransactionmanagement.scheduler.InputFileProcessingScheduler [scheduling-1] Input file found. Processing started...
@@ -44,7 +44,7 @@ To download daily transaction summary report, hit below url in browser
 
 **http://localhost:9000/clienttransactionmanagement/dailyReport**
 
-Sample report is available at "output-file" folder
+Sample report is available in **output-file** folder
 
 H2 database console can be reached at below url
 

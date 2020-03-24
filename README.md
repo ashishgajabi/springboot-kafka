@@ -48,6 +48,6 @@ Sample report is available in **output-file** folder
 
 H2 database console can be reached at below url
 
-http://localhost:9000/clienttransactionmanagement/h2-console with HDBC url as "jdbc:h2:mem:testdb" and user as 'sa'
+http://localhost:9000/clienttransactionmanagement/h2-console with jdbc url as "jdbc:h2:mem:testdb" and user as 'sa'
 
 
